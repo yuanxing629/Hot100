@@ -27,4 +27,10 @@ public class FindMinimumInRotatedSortedArray153 {
         }
         return nums[low];
     }
+
+    public static void main(String[] args) {
+        Integer l1 = 40;
+        Integer l2 = new Integer(40);
+        System.out.println(l1==l2);
+    }
 }
